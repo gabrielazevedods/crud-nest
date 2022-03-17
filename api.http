@@ -1,0 +1,28 @@
+POST http://localhost:3000/api/v1/person
+Content-Type: application/json
+
+{
+  "name": "Gabriel",
+  "age": 21,
+  "email": "gabriel@gmail.com"
+}
+
+###
+GET http://localhost:3000/api/v1/person
+
+###
+GET http://localhost:3000/api/v1/person/3
+
+
+###
+PUT http://localhost:3000/api/v1/person/3
+Content-Type: application/json
+
+{
+  "name": "Gabriel Azevedo",
+  "age": 21,
+  "email": "gabrielazevedo@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/v1/person/6
